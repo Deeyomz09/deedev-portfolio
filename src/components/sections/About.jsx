@@ -14,7 +14,16 @@ export const About = () => {
         </h2>
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-6">
-            Passionate mother fucker web Shit
+            Throughout my Information Technology education, I have obtained
+            expertise in designing web applications with the MERN stack. I also
+            have a strong background in back-end development, such as creating
+            RESTful APIs.
+          </p>
+          <p className="text-gray-300 mb-6">
+            My enthusiasm for full-stack programming motivates me to keep
+            learning new things and adjusting to new developments in technology.
+            I'm a firm believer in creating safe, effective, and impactful
+            solutions that improve efficiency and user experience.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

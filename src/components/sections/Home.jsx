@@ -8,10 +8,14 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7x1 font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right-">
-            Hi, I'm Dee Dev
+            Hey, there! I'm Dee Dev
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Full-stack developer, to be edit
+            Results-driven Back-End Developer with a strong foundation in
+            designing and building scalable web applications and RESTful APIs.
+            Experienced in Back-end Development, real time data streaming with
+            IoT, and Agile practices. Known for strong problem-solving skills,
+            teamwork, and commitment to clean, maintainable code.
           </p>
           <div className="flex justify-center space-x-4">
             <a
