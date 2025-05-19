@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PDF from "../../resume.pdf";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -48,8 +49,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact
             </a>
             <a
-              href="deedev-portfolio/resume.pdf"
+              href={PDF}
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-300 hove:text-white transition-color"
             >
               Resume
