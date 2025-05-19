@@ -1,6 +1,12 @@
 export const About = () => {
-  const frontendSkills = ["React", "Vue", "TypeScript", "TailwindCSS"];
-  const backendSkills = ["NodeJS", "Python", "MongoDB", "PostegreSQL"];
+  const frontendSkills = ["HTML", "CSS3", "React.js", "TailwindCSS"];
+  const backendSkills = [
+    "Javascript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL"
+  ];
 
   return (
     <section
@@ -72,11 +78,33 @@ export const About = () => {
             <h3 className="text-xl font-bold mb-4">Work Experience</h3>
             <div className="space-y-4 text-gray-300">
               <div>
-                <h4 className="font-semibold">
+                <h4 className="font-semibold mb-2">
                   {" "}
-                  Intern Backend-Develiper at TIP (2021-2022){" "}
+                  <strong>Back-end Developer Intern</strong> at Technological
+                  Institute of the Philippines (2021-2022){" "}
                 </h4>
-                <p> Developed and maintened microservices</p>
+                <p className="mb-2">
+                  {" "}
+                  • Collaborated with team members to design and implement
+                  RESTful APIs to handle requests and responses from web
+                  applications and to handle all the incoming data sent from the
+                  IoT devices using Node.js and Express.js.
+                </p>
+                <p className="mb-2">
+                  • Developed backend services to handle real-time data
+                  streaming from IoT Devices.
+                </p>
+
+                <p className="mb-2">
+                  • Engaged in sprint retrospectives to reflect on team
+                  performance, identify areas for improvement, and discuss
+                  actionable steps to enhance productivity and
+                </p>
+                <p className="mb-2">
+                  • Gained experience in version control using Git and
+                  participated in code reviews to maintain code quality and
+                  consistency.
+                </p>
               </div>
             </div>
           </div>

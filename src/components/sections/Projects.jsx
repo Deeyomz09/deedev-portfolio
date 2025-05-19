@@ -19,52 +19,31 @@ export const Projects = () => {
                 font-bold
                 mb-2
               >
-                DRIVERPH
+                DRIVERPH: Road Safety Analytics Platform
               </h3>
-              <p className="text-gray-400 mb-3">Track Drivers Behavior</p>
+              <p className="text-gray-400 mb-3">
+                - Led the development of a cloud-based system for analyzing
+                driver behavior using data analytics.
+              </p>
+              <p className="text-gray-400 mb-3">
+                - Integrated data from IoT sensors (sudden acceleration,
+                braking, turning) into a web dashboard.{" "}
+              </p>
+              <p className="text-gray-400 mb-3">
+                - Funded by DOST-CRADLE, in collaboration with Quicktrans Cargo
+                Moving, Inc.{" "}
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "MongoDB", "Docker"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shdow-[0_2px_8px_rgba(59,130,246,0.2)"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div>
-                <div
-                  flex
-                  justify-between
-                  items-center
-                >
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors"
-                  >
-                    View Project -
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shdow-[0_2px_8px_rgba(59,130,246,0.1) transition-all">
-              <h3
-                text-xl
-                font-bold
-                mb-2
-              >
-                POS ORDERING
-              </h3>
-              <p className="text-gray-400 mb-3">Ehsu and Eving POS</p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "MongoDB", "Docker"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shdow-[0_2px_8px_rgba(59,130,246,0.2)"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                {["React.js", "Express.js", "Node.js", "MongoDB"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shdow-[0_2px_8px_rgba(59,130,246,0.2)"
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
               </div>
               <div>
                 <div

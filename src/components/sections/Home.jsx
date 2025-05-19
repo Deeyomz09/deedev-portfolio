@@ -11,11 +11,11 @@ export const Home = () => {
             Hey, there! I'm Dee Dev
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Results-driven Back-End Developer with a strong foundation in
-            designing and building scalable web applications and RESTful APIs.
-            Experienced in Back-end Development, real time data streaming with
-            IoT, and Agile practices. Known for strong problem-solving skills,
-            teamwork, and commitment to clean, maintainable code.
+            Back-End Developer with a strong foundation in designing and
+            building scalable web applications and RESTful APIs. Experienced in
+            Back-end Development, real time data streaming with IoT, and Agile
+            practices. Known for strong problem-solving skills, teamwork, and
+            commitment to clean, maintainable code.
           </p>
           <div className="flex justify-center space-x-4">
             <a
