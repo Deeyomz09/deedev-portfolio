@@ -47,6 +47,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             >
               Contact
             </a>
+            <a
+              href="deedev-portfolio/resume.pdf"
+              target="_blank"
+              className="text-gray-300 hove:text-white transition-color"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
