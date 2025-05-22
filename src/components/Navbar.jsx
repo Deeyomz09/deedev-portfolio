@@ -48,14 +48,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             >
               Contact
             </a>
-            <a
-              href={PDF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-300 hove:text-white transition-color"
-            >
-              Resume
-            </a>
           </div>
         </div>
       </div>
